@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     "Web Development",
     "JavaScript",
   ],
-  authors: [{ name: "Kwadjo Boadi Mantey" }],
-  creator: "Kwadjo Boadi Mantey",
+  authors: [{ name: "Kwadjo Boadi-Mantey" }],
+  creator: "Kwadjo Boadi-Mantey",
   openGraph: {
     type: "website",
     locale: "en_US",

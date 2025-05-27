@@ -32,7 +32,7 @@ export default function Hero() {
             <p className="text-lg text-muted-foreground mt-6 max-w-2xl">
               I specialize in building exceptional digital experiences with
               Vue.js, React, Next.js, and TypeScript. Currently crafting
-              innovative solutions at TechCorp.
+              innovative solutions at AmaliTech.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <Button size="lg" onClick={scrollToAbout}>
