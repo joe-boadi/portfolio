@@ -10,7 +10,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://alexjohnson.dev"),
+  metadataBase: new URL("https://portfolio-joe-boadis-projects.vercel.app/"),
   title: {
     default: "Kwadjo Boadi-Mantey - Frontend Developer",
     template: "%s | Kwadjo Boadi-Mantey",

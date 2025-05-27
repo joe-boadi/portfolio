@@ -26,15 +26,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://alexjohnson.dev",
-    title: "Kwadjo Boadi - Frontend Developer",
+    url: "https://portfolio-joe-boadis-projects.vercel.app/",
+    title: "Joe Boadi - Frontend Developer",
     description:
       "Experienced Frontend Developer specializing in modern web technologies",
     siteName: "Alex Johnson Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kwadjo Boadi - Frontend Developer",
+    title: "Joe Boadi - Frontend Developer",
     description:
       "Experienced Frontend Developer specializing in modern web technologies",
     creator: "@joeboadiDev_",
