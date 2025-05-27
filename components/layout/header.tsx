@@ -55,7 +55,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
               <button
                 key={item.name}
@@ -69,7 +69,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Navigation */}
-          <div className="md:hidden flex items-center space-x-2">
+          <div className="lg:hidden flex items-center space-x-2">
             <ThemeToggle />
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>

@@ -39,7 +39,7 @@ const certifications = [
   {
     title: "React Developer Certification",
     issuer: "Codecademy",
-    date: "2024",
+    date: "2022",
     credentialId: "Codecademy",
   },
 ];
