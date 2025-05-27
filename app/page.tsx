@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Joe Boadi - Frontend Developer",
     description:
       "Experienced Frontend Developer specializing in modern web technologies",
-    siteName: "Alex Johnson Portfolio",
+    siteName: "Joe Boadi's Portfolio",
   },
   twitter: {
     card: "summary_large_image",
