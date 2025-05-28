@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   const scrollToAbout = () => {
@@ -39,10 +40,12 @@ export default function Hero() {
                 Learn More
                 <ArrowDown className="ml-2 h-4 w-4" />
               </Button>
-              <Button variant="outline" size="lg">
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
+              <Link href="/CV.pdf" download={"CV.pdf"} target="_blank">
+                <Button variant="outline" size="lg">
+                  <Download className="mr-2 h-4 w-4" />
+                  Download Resume
+                </Button>
+              </Link>
             </div>
           </motion.div>
 
